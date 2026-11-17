@@ -1,0 +1,30 @@
+{
+  "name": "Daniyal Khan",
+  "headline": "AI Automation & Full Stack Developer",
+  "hourly_rate": 55,
+  "min_fixed_budget": 400,
+  "skills": ["Python", "FastAPI", "OpenAI", "RAG", "LangChain", "n8n", "Node.js", "React", "Chatbot", "Automation"],
+  "niches": ["AI chatbots", "lead generation automation", "AI MVPs"],
+  "portfolio": [
+    {
+      "title": "Lead-Generation-Automation",
+      "summary": "AI pipeline that finds companies, enriches contacts via Hunter.io, pushes leads to Monday.com and sends personalised outreach",
+      "skills": ["Python", "Groq", "Automation", "Monday.com"],
+      "result": "replaced ~10 hours/week of manual prospecting",
+      "link": "https://github.com/dkt147/Lead-Generation-Automation"
+    },
+    {
+      "title": "E-commerce support agent",
+      "summary": "Voiceflow chatbot answering orders, returns and shipping questions from a knowledge base, with voice",
+      "skills": ["Chatbot", "RAG", "Voiceflow"],
+      "result": "answers the most common support questions 24/7",
+      "link": "https://github.com/dkt147/Customer_support_bot"
+    }
+  ],
+  "tone": "friendly, confident, concise",
+  "signature": "Daniyal",
+  "avoid_keywords": ["wordpress theme", "data entry"],
+  "win_rate_estimate": 0.12,
+  "profit_margin": 0.7,
+  "hours_per_proposal": 0.3
+}

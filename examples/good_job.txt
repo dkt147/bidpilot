@@ -1,0 +1,31 @@
+AI Chatbot for Dental Clinic Website (RAG over our FAQ + booking)
+
+Posted 2 hours ago
+
+We need someone to build an AI chatbot for our clinic website that answers patient questions from our FAQ and policy documents and books appointments into our calendar. The problem is our front desk spends 3 hours a day answering the same questions.
+
+Looking for an experienced developer with OpenAI, RAG and Python/FastAPI experience. Must be able to integrate with Google Calendar API. Bonus if you've done n8n automations.
+
+Hourly: $40 - $70 /hr
+Intermediate level
+Duration: 1 to 3 months
+
+Skills: Python, OpenAI, RAG, FastAPI, Chatbot, Google Calendar API
+
+Activity on this job
+Proposals: 5 to 10
+Interviewing: 0
+Invites sent: 2
+Send a proposal for: 14 Connects
+
+About the client
+Payment method verified
+4.9 of 5 reviews
+37 reviews
+United States
+42 jobs posted
+85% hire rate, 1 open job
+$48K total spent
+36 hires, 4 active
+$45.20 /hr avg hourly rate paid
+Member since Mar 12, 2019

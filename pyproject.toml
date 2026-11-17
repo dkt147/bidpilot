@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bidpilot-upwork"
+version = "0.1.0"
+description = "Upwork bidding copilot: job scoring, scam detection, Connects ROI, proposal briefs and win-rate tracking - as a Python library, CLI and MCP server for Claude."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Daniyal Khan" }]
+keywords = ["upwork", "freelance", "mcp", "model-context-protocol", "claude", "proposals", "ai-agent"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Office/Business",
+]
+dependencies = ["mcp>=1.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+bidpilot = "bidpilot.cli:main"
+bidpilot-mcp = "bidpilot.server:main"
+
+[project.urls]
+Homepage = "https://github.com/dkt147/bidpilot"
+Issues = "https://github.com/dkt147/bidpilot/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bidpilot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
